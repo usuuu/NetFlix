@@ -1,0 +1,86 @@
+
+/* Style section for the Netflix main page */
+body{
+    background-image: url("Images/SignInPage/signInBackgroundImage.jpeg");
+    color: white;
+    font-family: sans-serif;
+    margin: 25px 50px 25px 50px;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+
+}
+button .signIn {
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    padding: 15px;
+}
+
+.mainText{
+    padding-top: 120px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+
+h1{
+    font-size: 45px;
+}
+h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+p{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+input{
+    outline: none;
+    font-size: medium;
+
+}
+::placeholder{
+    color: rgb(173, 171, 171);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+
+}
+/*Style back for the Sign In page */
+.signInPage{
+
+    margin: 10px 100px 0px 100px ;
+    color: grey;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 20px;
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 1%;
+
+}
+.signInForm{
+   
+
+
+}

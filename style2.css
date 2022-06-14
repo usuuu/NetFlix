@@ -1,0 +1,12 @@
+/*Style back for the Sign In page */
+body {
+    background-color: black;
+    color: grey;
+}
+
+form{
+
+    color: gray;
+    background-color: rgb(63, 62, 62);
+}
+

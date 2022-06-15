@@ -7,33 +7,58 @@
     <title>Netflix</title>
     <link rel="icon" type="image/png" href="Images/netflix-n-logo.png">
     <link rel="stylesheet" href="style.css">
+    <script script src="netflix.js" defer ></script>
 </head>
 <body>
-    <div class="footer">
+    <div class="SignIn">
         <img src="Images/SignInPage/netflixs_logo.png" style="width: 150px; height: 50px;">
-    </div>
         <div class="signInPage">
-            <div class="signInForm">
             <h1 style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 30px;">Sign In</h1>
             <form>
                 <input type="email" id="Email" name="Email" placeholder="Email or phone number " required>
-                <input type="password" id="password" name="password" placeholder="password" required minlength="8">
+                <input type="password" id="password" name="password" placeholder="Password" required minlength="8">
             </form>
         
             <button class="SignInPageButton" type="submit">Sign In</button>
         
-            <div>
-                <input type="checkbox" id="rememberMe" name="rememberMe">
-                <label for="newsletter">Remember me</label>
+            <div class="rememberMe_Needhelp">
+                <div>
+                    <label class="container"> Remember me 
+                    <input type="checkbox"  name="rememberMe">
+                    <span class="checkmark"></span>
+                    </label>
+                </div>
+                <p>Need help?</p>
             </div>
-
-            <p>New to Netflix? <a href= index.html>Sign up now</a></p>
-            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more</a>.</p>
+            <div>
+                <p style="font-size:16px"> New to Netflix? <a href= index.html style="color:white">Sign up now</a></p>
+                <div class="T_C">
+                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a id="LearnMore" style="display:auto" onclick="showContent()">Learn more.</a></p>
+                    <div id="hiddenText"  style="display:none">
+                        The information collected by Google reCAPTCHA is subject to the Google <a>Privacy Policy</a> and <a>Terms of Service</a>, and is used for providing, maintaining and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).
+                    </div>
+                </div>
+                
+            </div>
+            
         </div>
+    </div>
         <div class="footer">
+            <div class="contact">
+                <p>Questions? Call 0808 196 5391</p>
+            </div>
+            <div class="generalInformation">
+                <a href="" >FAQ</a>
+                <a href="" >Help centre</a>
+                <a href="" >Terms of Use</a>
+                <a href="" >Privacy</a>
+                <a href="" >Cookie Preferences</a>    
+                <a href="">Coporate Information</a>
+            </div>
+        </div>
+        <div class="whitebox">
         
         </div>
-
 </body>
     
 </html>

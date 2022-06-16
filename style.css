@@ -99,7 +99,6 @@ input{
 
 
 }
-/* On screens that are 600px wide or less, the background color is black */
 
 .rememberMe_Needhelp{
     display: flex;
@@ -149,7 +148,7 @@ form input{
    
     background-color: rgb(0, 0, 0,0.9);
     color: rgb(146, 148, 150);
-    margin-top: 100px;
+    margin-top: 70px;
     height: 150px;
     padding: 33px;
 
@@ -214,19 +213,20 @@ form input{
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+/* On screens that are 600px wide or less, the background color is black */
+
 @media screen and (max-width: 600px) {
     body {
       background-image: none;
       background-color: black;
       appearance: none;
     }
+    /* Remove top margin and add grey line above the contents of footer*/
     .footer{
-   
-       
         margin-top: 0px;
         margin-bottom: 25px;
-        height: 150px;
         padding: 33px;
+        border-top: 1px solid grey;
     
     }
     .whitebox{

@@ -99,6 +99,8 @@ input{
 
 
 }
+/* On screens that are 600px wide or less, the background color is black */
+
 .rememberMe_Needhelp{
     display: flex;
     font-size: 14px;
@@ -147,11 +149,9 @@ form input{
    
     background-color: rgb(0, 0, 0,0.9);
     color: rgb(146, 148, 150);
-   
     margin-top: 100px;
     height: 150px;
     padding: 33px;
-    
 
 }
 .generalInformation{
@@ -213,4 +213,23 @@ form input{
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+@media screen and (max-width: 600px) {
+    body {
+      background-image: none;
+      background-color: black;
+      appearance: none;
+    }
+    .footer{
+   
+       
+        margin-top: 0px;
+        margin-bottom: 25px;
+        height: 150px;
+        padding: 33px;
+    
+    }
+    .whitebox{
+        height: 0;
+    }
 }
